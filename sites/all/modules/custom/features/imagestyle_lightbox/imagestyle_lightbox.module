@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the imagestyle_lightbox feature.
+ */
+
+include_once 'imagestyle_lightbox.features.inc';

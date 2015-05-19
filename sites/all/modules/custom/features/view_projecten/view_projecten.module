@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View_projecten feature.
+ */
+
+include_once 'view_projecten.features.inc';
