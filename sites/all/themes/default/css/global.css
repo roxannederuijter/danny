@@ -290,7 +290,8 @@ a.readmore {
 #zone-header {
   width: 100%; }
   #zone-header #region-header-first {
-    width: 100%; }
+    width: 100%;
+    margin: 0 auto; }
     #zone-header #region-header-first img {
       height: 341px; }
 
