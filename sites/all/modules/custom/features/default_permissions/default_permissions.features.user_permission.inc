@@ -336,15 +336,6 @@ function default_permissions_user_default_permissions() {
     'module' => 'locale',
   );
 
-  // Exported permission: 'administer lightbox2'.
-  $permissions['administer lightbox2'] = array(
-    'name' => 'administer lightbox2',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'lightbox2',
-  );
-
   // Exported permission: 'administer media browser'.
   $permissions['administer media browser'] = array(
     'name' => 'administer media browser',
@@ -613,13 +604,6 @@ function default_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'create projecten content'.
-  $permissions['create projecten content'] = array(
-    'name' => 'create projecten content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
   // Exported permission: 'create url aliases'.
   $permissions['create url aliases'] = array(
     'name' => 'create url aliases',
@@ -689,13 +673,6 @@ function default_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'delete any projecten content'.
-  $permissions['delete any projecten content'] = array(
-    'name' => 'delete any projecten content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
   // Exported permission: 'delete any video files'.
   $permissions['delete any video files'] = array(
     'name' => 'delete any video files',
@@ -741,13 +718,6 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'delete own page content'.
   $permissions['delete own page content'] = array(
     'name' => 'delete own page content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete own projecten content'.
-  $permissions['delete own projecten content'] = array(
-    'name' => 'delete own projecten content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -819,15 +789,6 @@ function default_permissions_user_default_permissions() {
     'name' => 'download any video files',
     'roles' => array(),
     'module' => 'file_entity',
-  );
-
-  // Exported permission: 'download original image'.
-  $permissions['download original image'] = array(
-    'name' => 'download original image',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'lightbox2',
   );
 
   // Exported permission: 'download own audio files'.
@@ -902,13 +863,6 @@ function default_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'edit any projecten content'.
-  $permissions['edit any projecten content'] = array(
-    'name' => 'edit any projecten content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
   // Exported permission: 'edit any video files'.
   $permissions['edit any video files'] = array(
     'name' => 'edit any video files',
@@ -972,13 +926,6 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'edit own page content'.
   $permissions['edit own page content'] = array(
     'name' => 'edit own page content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit own projecten content'.
-  $permissions['edit own projecten content'] = array(
-    'name' => 'edit own projecten content',
     'roles' => array(),
     'module' => 'node',
   );
