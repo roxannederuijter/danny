@@ -46,25 +46,11 @@ function d_user_default_permissions() {
     'module' => 'bean',
   );
 
-  // Exported permission: 'create any banner bean'.
-  $permissions['create any banner bean'] = array(
-    'name' => 'create any banner bean',
-    'roles' => array(),
-    'module' => 'bean',
-  );
-
   // Exported permission: 'create diensten content'.
   $permissions['create diensten content'] = array(
     'name' => 'create diensten content',
     'roles' => array(),
     'module' => 'node',
-  );
-
-  // Exported permission: 'delete any banner bean'.
-  $permissions['delete any banner bean'] = array(
-    'name' => 'delete any banner bean',
-    'roles' => array(),
-    'module' => 'bean',
   );
 
   // Exported permission: 'delete any diensten content'.
@@ -79,13 +65,6 @@ function d_user_default_permissions() {
     'name' => 'delete own diensten content',
     'roles' => array(),
     'module' => 'node',
-  );
-
-  // Exported permission: 'edit any banner bean'.
-  $permissions['edit any banner bean'] = array(
-    'name' => 'edit any banner bean',
-    'roles' => array(),
-    'module' => 'bean',
   );
 
   // Exported permission: 'edit any diensten content'.
@@ -109,13 +88,6 @@ function d_user_default_permissions() {
     'name' => 'edit own diensten content',
     'roles' => array(),
     'module' => 'node',
-  );
-
-  // Exported permission: 'view any banner bean'.
-  $permissions['view any banner bean'] = array(
-    'name' => 'view any banner bean',
-    'roles' => array(),
-    'module' => 'bean',
   );
 
   // Exported permission: 'view bean page'.
