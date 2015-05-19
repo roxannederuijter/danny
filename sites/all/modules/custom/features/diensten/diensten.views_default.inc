@@ -68,7 +68,6 @@ function diensten_views_default_views() {
   $handler->display->display_options['footer']['area']['id'] = 'area';
   $handler->display->display_options['footer']['area']['table'] = 'views';
   $handler->display->display_options['footer']['area']['field'] = 'area';
-  $handler->display->display_options['footer']['area']['content'] = '<div class="readmore"><a href="/daktechniek-0" class="readmore">BEKIJK ONZE DIENSTEN ></a></div>';
   $handler->display->display_options['footer']['area']['format'] = 'filtered_html';
 
   /* Display: fullcontent */
@@ -86,10 +85,6 @@ function diensten_views_default_views() {
   $handler->display->display_options['row_plugin'] = 'node';
   $handler->display->display_options['row_options']['view_mode'] = 'full';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
-
-  /* Display: Teaser */
-  $handler = $view->new_display('block', 'Teaser', 'block_2');
-  $handler->display->display_options['defaults']['footer'] = FALSE;
   $translatables['diensten'] = array(
     t('Master'),
     t('Diensten'),
@@ -101,7 +96,6 @@ function diensten_views_default_views() {
     t('Desc'),
     t('Teaser'),
     t('more'),
-    t('<div class="readmore"><a href="/daktechniek-0" class="readmore">BEKIJK ONZE DIENSTEN ></a></div>'),
     t('fullcontent'),
   );
   $export['diensten'] = $view;
