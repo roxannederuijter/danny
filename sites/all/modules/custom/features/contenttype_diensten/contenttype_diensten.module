@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Contenttype_diensten feature.
+ */
+
+include_once 'contenttype_diensten.features.inc';

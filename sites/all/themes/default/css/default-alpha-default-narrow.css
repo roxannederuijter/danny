@@ -1,0 +1,140 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+.ds-2col > .group-left {
+  float: left;
+  width: 50%; }
+
+.ds-2col > .group-right {
+  float: left;
+  width: 50%; }
+
+.field-name-field-paragraph-s,
+.paragraphs-item-1-kolom-afbeelding,
+.paragraphs-item-1-kolom-tekst,
+.paragraphs-item-2-kolommen-afbeeldingen,
+.paragraphs-item-2-kolommen-tekst,
+.paragraphs-item-2-kolommen-tekst-afbeelding-link,
+.paragraphs-item-2-kolommen-tekst-afbeelding-rech {
+  float: left;
+  width: 100%; }
+  .field-name-field-paragraph-s .ds-2col > .group-left,
+  .field-name-field-paragraph-s .ds-2col > .group-right,
+  .paragraphs-item-1-kolom-afbeelding .ds-2col > .group-left,
+  .paragraphs-item-1-kolom-afbeelding .ds-2col > .group-right,
+  .paragraphs-item-1-kolom-tekst .ds-2col > .group-left,
+  .paragraphs-item-1-kolom-tekst .ds-2col > .group-right,
+  .paragraphs-item-2-kolommen-afbeeldingen .ds-2col > .group-left,
+  .paragraphs-item-2-kolommen-afbeeldingen .ds-2col > .group-right,
+  .paragraphs-item-2-kolommen-tekst .ds-2col > .group-left,
+  .paragraphs-item-2-kolommen-tekst .ds-2col > .group-right,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-link .ds-2col > .group-left,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-link .ds-2col > .group-right,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-rech .ds-2col > .group-left,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-rech .ds-2col > .group-right {
+    width: 48.75%; }
+  .field-name-field-paragraph-s .ds-2col > .group-left,
+  .paragraphs-item-1-kolom-afbeelding .ds-2col > .group-left,
+  .paragraphs-item-1-kolom-tekst .ds-2col > .group-left,
+  .paragraphs-item-2-kolommen-afbeeldingen .ds-2col > .group-left,
+  .paragraphs-item-2-kolommen-tekst .ds-2col > .group-left,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-link .ds-2col > .group-left,
+  .paragraphs-item-2-kolommen-tekst-afbeelding-rech .ds-2col > .group-left {
+    margin-right: 2.5%; }
+
+.logo-img {
+  margin: 0 auto; }
+
+.zone-branding-wrapper img {
+  width: 100%;
+  margin-bottom: 10px; }
+
+#block-block-2 ul {
+  margin-bottom: 0px; }
+#block-block-2 li {
+  background-color: #eaeaea;
+  float: left;
+  list-style: none;
+  padding-right: 11%;
+  font-size: 1.000em; }
+#block-block-2 li:before {
+  font-family: FontAwesome;
+  content: "\f0a3";
+  margin-right: 5px;
+  color: #8e0018; }
+
+.field-name-field-tekst-rechts {
+  width: 100%;
+  text-align: left;
+  margin: 0 auto; }
+
+.field-name-field-tekst-lang {
+  width: 100%;
+  text-align: left;
+  margin: 0 auto; }
+
+.dienst {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  margin-bottom: 60px; }
+  .dienst a {
+    font-size: 1.125em;
+    color: #000000; }
+  .dienst a:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #8e0018; }
+  .dienst img {
+    width: 50%;
+    margin-bottom: 25px; }
+
+.zone-postscript-wrapper {
+  background-color: #eaeaea;
+  padding: 50px 0 45px 0; }
+  .zone-postscript-wrapper a.readmore {
+    background-color: #8e0018;
+    padding: 23px;
+    font-size: 1.125em;
+    font-weight: 600;
+    color: #ffffff; }
+  .zone-postscript-wrapper .readmore {
+    width: 23%;
+    margin: 0 auto;
+    padding-bottom: 40px; }
+  .zone-postscript-wrapper .view-id-diensten {
+    margin-top: 50px; }
+
+.zone-footer-wrapper {
+  background-color: #8e0018;
+  color: #ffffff;
+  font-size: 0.938em;
+  padding: 60px 0;
+  text-align: left; }
+  .zone-footer-wrapper a {
+    color: #ffffff;
+    text-transform: none; }
+  .zone-footer-wrapper h2.block-title {
+    font-size: 1.125em;
+    text-align: left;
+    color: #ffffff; }
+  .zone-footer-wrapper .sf-menu li {
+    float: none;
+    position: relative;
+    z-index: 498; }
+  .zone-footer-wrapper .block-superfish {
+    float: left; }
+  .zone-footer-wrapper ul.menu li {
+    margin: 0 0 0 0; }
+  .zone-footer-wrapper li a.active {
+    color: #ffffff; }
+
+input[type="text"] {
+  width: 50%;
+  margin: 0 auto; }
+
+.form-textarea-wrapper textarea {
+  width: 50%;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=default-alpha-default-narrow.css.map */

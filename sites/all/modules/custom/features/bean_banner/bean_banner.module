@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the bean_banner feature.
+ */
+
+include_once 'bean_banner.features.inc';
