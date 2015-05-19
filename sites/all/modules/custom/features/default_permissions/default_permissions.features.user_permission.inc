@@ -46,6 +46,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'webform',
   );
 
+  // Exported permission: 'access bean overview'.
+  $permissions['access bean overview'] = array(
+    'name' => 'access bean overview',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
   // Exported permission: 'access content'.
   $permissions['access content'] = array(
     'name' => 'access content',
@@ -192,6 +201,33 @@ function default_permissions_user_default_permissions() {
     'module' => 'system',
   );
 
+  // Exported permission: 'administer bean settings'.
+  $permissions['administer bean settings'] = array(
+    'name' => 'administer bean settings',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'administer bean types'.
+  $permissions['administer bean types'] = array(
+    'name' => 'administer bean types',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'administer beans'.
+  $permissions['administer beans'] = array(
+    'name' => 'administer beans',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
   // Exported permission: 'administer blocks'.
   $permissions['administer blocks'] = array(
     'name' => 'administer blocks',
@@ -298,6 +334,15 @@ function default_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'locale',
+  );
+
+  // Exported permission: 'administer lightbox2'.
+  $permissions['administer lightbox2'] = array(
+    'name' => 'administer lightbox2',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'lightbox2',
   );
 
   // Exported permission: 'administer media browser'.
@@ -545,6 +590,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'user',
   );
 
+  // Exported permission: 'create diensten content'.
+  $permissions['create diensten content'] = array(
+    'name' => 'create diensten content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'create files'.
   $permissions['create files'] = array(
     'name' => 'create files',
@@ -557,6 +609,13 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'create page content'.
   $permissions['create page content'] = array(
     'name' => 'create page content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'create projecten content'.
+  $permissions['create projecten content'] = array(
+    'name' => 'create projecten content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -602,6 +661,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'delete any diensten content'.
+  $permissions['delete any diensten content'] = array(
+    'name' => 'delete any diensten content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete any document files'.
   $permissions['delete any document files'] = array(
     'name' => 'delete any document files',
@@ -619,6 +685,13 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'delete any page content'.
   $permissions['delete any page content'] = array(
     'name' => 'delete any page content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'delete any projecten content'.
+  $permissions['delete any projecten content'] = array(
+    'name' => 'delete any projecten content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -644,6 +717,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'delete own diensten content'.
+  $permissions['delete own diensten content'] = array(
+    'name' => 'delete own diensten content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete own document files'.
   $permissions['delete own document files'] = array(
     'name' => 'delete own document files',
@@ -661,6 +741,13 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'delete own page content'.
   $permissions['delete own page content'] = array(
     'name' => 'delete own page content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'delete own projecten content'.
+  $permissions['delete own projecten content'] = array(
+    'name' => 'delete own projecten content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -734,6 +821,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'download original image'.
+  $permissions['download original image'] = array(
+    'name' => 'download original image',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'lightbox2',
+  );
+
   // Exported permission: 'download own audio files'.
   $permissions['download own audio files'] = array(
     'name' => 'download own audio files',
@@ -778,6 +874,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'edit any diensten content'.
+  $permissions['edit any diensten content'] = array(
+    'name' => 'edit any diensten content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit any document files'.
   $permissions['edit any document files'] = array(
     'name' => 'edit any document files',
@@ -799,6 +902,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'edit any projecten content'.
+  $permissions['edit any projecten content'] = array(
+    'name' => 'edit any projecten content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit any video files'.
   $permissions['edit any video files'] = array(
     'name' => 'edit any video files',
@@ -811,6 +921,15 @@ function default_permissions_user_default_permissions() {
     'name' => 'edit any webform content',
     'roles' => array(),
     'module' => 'node',
+  );
+
+  // Exported permission: 'edit bean view mode'.
+  $permissions['edit bean view mode'] = array(
+    'name' => 'edit bean view mode',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
   );
 
   // Exported permission: 'edit meta tags'.
@@ -827,6 +946,13 @@ function default_permissions_user_default_permissions() {
     'name' => 'edit own audio files',
     'roles' => array(),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'edit own diensten content'.
+  $permissions['edit own diensten content'] = array(
+    'name' => 'edit own diensten content',
+    'roles' => array(),
+    'module' => 'node',
   );
 
   // Exported permission: 'edit own document files'.
@@ -846,6 +972,13 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'edit own page content'.
   $permissions['edit own page content'] = array(
     'name' => 'edit own page content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'edit own projecten content'.
+  $permissions['edit own projecten content'] = array(
+    'name' => 'edit own projecten content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -1055,6 +1188,24 @@ function default_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'filter',
+  );
+
+  // Exported permission: 'view bean page'.
+  $permissions['view bean page'] = array(
+    'name' => 'view bean page',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'view bean revisions'.
+  $permissions['view bean revisions'] = array(
+    'name' => 'view bean revisions',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
   );
 
   // Exported permission: 'view files'.
