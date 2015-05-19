@@ -42,6 +42,6 @@ features[fe_block_settings][] = user-new
 features[fe_block_settings][] = user-online
 features[fe_block_settings][] = views-diensten-block
 features[fe_block_settings][] = views-diensten-block_1
-features[fe_block_settings][] = views-diensten-block_2
+features[fe_block_settings][] = views-projecten-block
 features[fe_block_settings][] = webform-client-block-7
 features[features_api][] = api:2

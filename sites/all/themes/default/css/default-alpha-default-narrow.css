@@ -75,7 +75,7 @@
   margin: 0 auto; }
 
 .dienst {
-  width: 33.3%;
+  width: 19.3%;
   float: left;
   text-align: center;
   margin-bottom: 60px; }
@@ -110,13 +110,13 @@
   color: #ffffff;
   font-size: 0.938em;
   padding: 60px 0;
-  text-align: left; }
+  text-align: center; }
   .zone-footer-wrapper a {
     color: #ffffff;
     text-transform: none; }
   .zone-footer-wrapper h2.block-title {
     font-size: 1.125em;
-    text-align: left;
+    text-align: center;
     color: #ffffff; }
   .zone-footer-wrapper .sf-menu li {
     float: none;

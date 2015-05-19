@@ -262,8 +262,8 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'footer_second',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'default',
         'weight' => 0,
       ),
@@ -552,24 +552,24 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['views-diensten-block_2'] = array(
+  $export['views-projecten-block'] = array(
     'cache' => -1,
     'custom' => 0,
-    'delta' => 'diensten-block_2',
+    'delta' => 'projecten-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => 'daktechniek-0',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'content',
+        'region' => 'postscript_second',
         'status' => 1,
         'theme' => 'default',
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
-    'visibility' => 1,
+    'title' => 'Projecten  :',
+    'visibility' => 0,
   );
 
   $export['webform-client-block-7'] = array(
@@ -582,13 +582,13 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'footer_second',
+        'status' => 1,
         'theme' => 'default',
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
