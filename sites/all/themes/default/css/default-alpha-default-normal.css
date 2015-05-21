@@ -1,43 +1,30 @@
-/* This file will hold styles that are loaded using the same media query as the normal grid. */
-/* If you are using the default media queries provided by Omega, these styles will also
- *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+#block-block-2 ul {
+  margin-bottom: 0px; }
+#block-block-2 li {
+  background-color: #eaeaea;
+  float: left;
+  list-style: none;
+  padding-right: 11%;
+  font-size: 1.00em;
+  color: #8e0018; }
+#block-block-2 li:before {
+  font-family: FontAwesome;
+  content: "\f0a3";
+  margin-right: 5px;
+  color: #8e0018; }
+
+.view-projecten img {
+  float: left;
+  padding: 50px 18px; }
+.view-projecten a:after {
+  content: ".";
+  background: url("/img/search.png");
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-indent: -9999px; }
 
 /*# sourceMappingURL=default-alpha-default-normal.css.map */
-
-#block-block-2{
-ul {
-    margin-bottom:0px;
-}
-li {
-    background-color:#eaeaea;
-    float:left;
-    list-style:none;
-    padding-right:11%;
-    font-size: 0.938em;
-    color:#8e0018;
-}
-li:before {
-    font-family: FontAwesome;
-    content: "\f0a3";
-    margin-right: 5px;
-    color:#8e0018;
-}
-}
-
-.view-projecten {
-img {
-    float:left;
-    padding:50px 18px;
-}
-a:after {
-    content: ".";
-    background: url("/img/search.png");
-    width: 20px;
-    height: 20px;
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    text-indent: -9999px;
-}
-}
