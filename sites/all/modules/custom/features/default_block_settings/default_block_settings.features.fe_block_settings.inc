@@ -25,7 +25,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'header_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -15,
       ),
     ),
     'title' => '<none>',
@@ -525,7 +525,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'postscript_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -15,
       ),
     ),
     'title' => 'Wij kunnen je helpen met:',
@@ -548,7 +548,7 @@ function default_block_settings_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
@@ -565,10 +565,10 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'postscript_second',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -14,
       ),
     ),
-    'title' => 'Projecten  :',
+    'title' => 'Wij kunnen je helpen met:',
     'visibility' => 0,
   );
 

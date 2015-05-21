@@ -84,11 +84,11 @@ $content['body']['#theme'] = "nomarkup";
 ?>
 
 <?php if ($view_mode=="teaser"):?>
+
   <div class="dienst">
     <?php print render($content['field_image']); ?>
-    <?php print l(t($title), 'node/'. $node->nid); ?>
+    <?php print render($title); ?>
   </div>
-
 
 <?php else: ?>
 
@@ -99,8 +99,6 @@ $content['body']['#theme'] = "nomarkup";
   hide($content['comments']);
   hide($content['links']);?>
 
-  <?php print render($content['field_image']); ?>
-  <?php print render($content['field_paragraph']); ?>
   
 </div>
 

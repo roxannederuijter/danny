@@ -1142,6 +1142,8 @@ function default_permissions_user_default_permissions() {
     'name' => 'view bean page',
     'roles' => array(
       'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'bean',
   );
