@@ -50,8 +50,8 @@
     background-color:#eaeaea;
     float:left;
     list-style:none;
-    padding-right:11%;
-    font-size: 1.000em;
+    padding-right:3%;
+    font-size: 0.813em;
   }
   li:before {
     font-family: FontAwesome;
@@ -153,5 +153,24 @@ input[type="text"] {
 .form-textarea-wrapper textarea {
   width: 50%;
   margin: 0 auto;
+}
+
+.view-projecten {
+  img {
+    float:left;
+    padding:50px 7px;
+    width:23%;
+  }
+  a:after {
+    content: ".";
+    background: url("/img/search.png");
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-indent: -9999px;
+  }
 }
 

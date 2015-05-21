@@ -134,7 +134,8 @@ input[type="button"]:hover,
   background: #fff url("../css/img/hamburger-menu-icon.png") no-repeat 10px center;
   border: #ccc;
   background-size: 20px;
-  color: #000; }
+  color: #000;
+  margin-top: 37px; }
 
 .ds-2col > .group-left {
   float: left;
@@ -307,7 +308,7 @@ a.readmore {
   float: left;
   list-style: none;
   padding-right: 11%;
-  font-size: 0.938em;
+  font-size: 0.813em;
   color: #8e0018; }
 #block-block-2 li:before {
   font-family: FontAwesome;
@@ -351,8 +352,10 @@ input[type="text"] {
   padding: 20px 0; }
 
 .view-projecten img {
-  float: left;
-  padding: 50px 18px; }
+  float: center;
+  padding: 25px 0px;
+  width: 80%;
+  margin: 0 auto; }
 .view-projecten a:after {
   content: ".";
   background: url("/img/search.png");
