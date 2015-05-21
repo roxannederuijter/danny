@@ -293,7 +293,8 @@ a.readmore {
     width: 100%;
     margin: 0 auto; }
     #zone-header #region-header-first img {
-      height: 341px; }
+      height: 341px;
+      width: 100%; }
 
 .zone-preface-wrapper {
   background-color: #eaeaea;
@@ -306,7 +307,8 @@ a.readmore {
   float: left;
   list-style: none;
   padding-right: 11%;
-  font-size: 0.938em; }
+  font-size: 0.938em;
+  color: #8e0018; }
 #block-block-2 li:before {
   font-family: FontAwesome;
   content: "\f0a3";
@@ -350,7 +352,7 @@ input[type="text"] {
 
 .view-projecten img {
   float: left;
-  padding: 50px 10px; }
+  padding: 50px 18px; }
 .view-projecten a:after {
   content: ".";
   background: url("/img/search.png");
