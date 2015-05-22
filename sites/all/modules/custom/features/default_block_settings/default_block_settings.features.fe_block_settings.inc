@@ -568,7 +568,7 @@ function default_block_settings_default_fe_block_settings() {
         'weight' => -14,
       ),
     ),
-    'title' => 'Wij kunnen je helpen met:',
+    'title' => 'Projecten:',
     'visibility' => 0,
   );
 

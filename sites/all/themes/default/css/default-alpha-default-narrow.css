@@ -154,12 +154,15 @@ input[type="text"] {
     width: 100%;
     margin: 0 auto; }
     #zone-header #region-header-first img {
-      height: 341px;
+      height: auto;
       width: 100%; }
 
 .logo-img img {
   width: 80%;
   margin-bottom: 10px;
   margin: 0 auto; }
+
+.block-superfish {
+  float: right; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

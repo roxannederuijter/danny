@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   font-size: 1.500em;
-  font-weight: 500; }
+  font-weight: 600; }
 
 h2.block-title {
   font-size: 1.6em;
@@ -212,9 +212,6 @@ ul#superfish-1 {
       border-bottom: 3px solid #8e0018;
       text-transform: uppercase; }
 
-.block-superfish {
-  float: right; }
-
 .zone-branding-wrapper {
   background-color: #ffffff; }
 
@@ -366,5 +363,19 @@ input[type="text"] {
   width: 50%;
   margin-bottom: 10px;
   margin: 0 auto; }
+
+#zone-branding-wrapper {
+  position: fixed;
+  top: 0;
+  z-index: 998;
+  width: 100%; }
+
+#section-header {
+  margin-top: 93px; }
+
+.admin-menu #section-header {
+  margin-top: 112px; }
+.admin-menu #zone-branding-wrapper {
+  top: 29px; }
 
 /*# sourceMappingURL=global.css.map */

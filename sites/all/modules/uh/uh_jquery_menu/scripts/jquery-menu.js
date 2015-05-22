@@ -8,7 +8,7 @@
     $(document).ready(function() {
         $('a[href*=#]').on('click', function(event){
             event.preventDefault();
-            $('html,body').animate({scrollTop:$(this.hash).offset().top - 50}, 1000);
+            $('html,body').animate({scrollTop:$(this.hash).offset().top - 140}, 1000);
         });
     });
 })(jQuery);
