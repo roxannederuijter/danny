@@ -46,10 +46,6 @@
 .logo-img {
   margin: 0 auto; }
 
-.zone-branding-wrapper img {
-  width: 100%;
-  margin-bottom: 10px; }
-
 #block-block-2 ul {
   margin-bottom: 0px; }
 #block-block-2 li {
@@ -160,5 +156,10 @@ input[type="text"] {
     #zone-header #region-header-first img {
       height: 341px;
       width: 100%; }
+
+.logo-img img {
+  width: 80%;
+  margin-bottom: 10px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
