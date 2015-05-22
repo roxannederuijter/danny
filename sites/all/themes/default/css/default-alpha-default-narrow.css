@@ -53,7 +53,8 @@
   float: left;
   list-style: none;
   padding-right: 3%;
-  font-size: 0.813em; }
+  font-size: 0.813em;
+  font-weight: 600; }
 #block-block-2 li:before {
   font-family: FontAwesome;
   content: "\f0a3";
