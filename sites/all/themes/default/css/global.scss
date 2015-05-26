@@ -220,7 +220,6 @@ ul#superfish-1 {
 }
 
 a.readmore {
-  //TODO variable
   background-color:#8e0018;
   padding: 12px 23px;
   font-size:1.125em;
@@ -229,7 +228,6 @@ a.readmore {
   margin-top:30px;
 }
 
-//TODO #block-views-diensten-block .view-row heeft het zelfde effect zonder extra code
 .dienst {
   width: 100%;
   float: left;
@@ -263,21 +261,18 @@ a.readmore {
     color:#ffffff;
   }
 
-  //TODO ?
   .readmore {
     width: 51%;
     margin: 0 auto;
     padding-bottom:40px;
   }
 
-  //TODO margin-top veranderen naar h2.block-title margin-bottom
-  .view-id-diensten {
-    margin-top:50px;
+  h2.block-title {
+    margin-bottom:50px;
   }
 }
 
 .zone-footer-wrapper {
-  //TODO variable
   background-color:#8e0018;
   color:#ffffff;
   font-size:0.938em;
@@ -336,15 +331,11 @@ a.readmore {
     margin-bottom:0px;
   }
   li {
-    //TODO variable
     background-color:#eaeaea;
     float:left;
     list-style:none;
     font-size: 0.813em;
-    //TODO variable
     color:#8e0018;
-    //TODO variable + Dubbel
-    background-color: #eaeaea;
     font-weight: 600;
     width:100%;
   }
@@ -357,7 +348,6 @@ a.readmore {
 }
 
 input[type="submit"] {
-  //TODO variable
   background-color: #8e0018;
   padding: 15px;
   font-size: 12px;
@@ -401,8 +391,6 @@ input[type="text"] {
 
 .view-projecten {
   img {
-    //TODO ?
-    float: center;
     padding: 25px 0px;
     width: 80%;
     margin: 0 auto;
@@ -424,9 +412,6 @@ input[type="text"] {
   margin-top:10px;
   img {
     width: 50%;
-
-    //TODO Margin bottom voor margin: 0 auto werkt niet;
-    margin-bottom: 10px;
     margin:0 auto;
   }
 }
@@ -435,10 +420,6 @@ input[type="text"] {
   z-index:998;
   width:100%;
   border-bottom:1px solid #eaeaea;
-}
-
-#section-header {
-  /*margin-top:93px;*/
 }
 
 .admin-menu {

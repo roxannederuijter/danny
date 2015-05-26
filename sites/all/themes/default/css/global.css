@@ -252,8 +252,8 @@ a.readmore {
     width: 51%;
     margin: 0 auto;
     padding-bottom: 40px; }
-  .zone-postscript-wrapper .view-id-diensten {
-    margin-top: 50px; }
+  .zone-postscript-wrapper h2.block-title {
+    margin-bottom: 50px; }
 
 .zone-footer-wrapper {
   background-color: #8e0018;
@@ -303,7 +303,6 @@ a.readmore {
   list-style: none;
   font-size: 0.813em;
   color: #8e0018;
-  background-color: #eaeaea;
   font-weight: 600;
   width: 100%; }
 #block-block-2 li:before {
@@ -348,7 +347,6 @@ input[type="text"] {
   padding: 20px 0; }
 
 .view-projecten img {
-  float: center;
   padding: 25px 0px;
   width: 80%;
   margin: 0 auto; }
@@ -367,16 +365,12 @@ input[type="text"] {
   margin-top: 10px; }
   .logo-img img {
     width: 50%;
-    margin-bottom: 10px;
     margin: 0 auto; }
 
 #zone-branding-wrapper {
   z-index: 998;
   width: 100%;
   border-bottom: 1px solid #eaeaea; }
-
-#section-header {
-  /*margin-top:93px;*/ }
 
 .admin-menu #section-header {
   margin-top: 112px; }
