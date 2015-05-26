@@ -156,10 +156,12 @@ input[type="text"] {
       height: auto;
       width: 100%; }
 
-.logo-img img {
-  width: 80%;
-  margin-bottom: 10px;
-  margin: 0 auto; }
+.logo-img {
+  margin-top: 10px; }
+  .logo-img img {
+    width: 80%;
+    margin-bottom: 10px;
+    margin: 0 auto; }
 
 .block-superfish {
   float: right; }
