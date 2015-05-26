@@ -32,6 +32,26 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['bean-contact'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'contact',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'user_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['block-contact'] = array(
     'cache' => -1,
     'custom' => 0,

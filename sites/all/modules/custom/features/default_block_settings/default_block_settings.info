@@ -14,6 +14,7 @@ dependencies[] = search
 dependencies[] = superfish
 dependencies[] = webform
 features[fe_block_settings][] = bean-banner
+features[fe_block_settings][] = bean-contact
 features[fe_block_settings][] = block-contact
 features[fe_block_settings][] = block-headerblock
 features[fe_block_settings][] = devel-execute_php
