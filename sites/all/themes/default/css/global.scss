@@ -218,11 +218,6 @@ ul#superfish-1 {
 .zone-branding-wrapper {
   background-color:#ffffff;
 }
-//TODO ?
-.zone-header-wrapper {
-
-}
-
 
 a.readmore {
   //TODO variable
@@ -373,12 +368,6 @@ input[type="submit"] {
   border: 2px solid #ffffff;
 }
 
-
-//TODO ?
-.zone-footer-wrapper {
-
-}
-
 .field-name-field-tekst-rechts {
   width: 80%;
   text-align: center;
@@ -443,15 +432,13 @@ input[type="text"] {
 }
 
 #zone-branding-wrapper {
-  position:fixed;
-  top:0;
   z-index:998;
   width:100%;
   border-bottom:1px solid #eaeaea;
 }
 
 #section-header {
-  margin-top:93px;
+  /*margin-top:93px;*/
 }
 
 .admin-menu {
@@ -463,5 +450,38 @@ input[type="text"] {
   }
 }
 
+.zone-user-wrapper {
+  li {
+    float: left;
+    list-style: none;
+    padding: 5px 10px;
+  }
+  li.phone {
+    padding-right:5px;
+  }
+  li.phone:before {
+    font-family: FontAwesome;
+    content: "\f10b";
+    margin-right:5px;
+  }
+  a {
+    color:#000;
+  }
+  a:before {
+    font-family: FontAwesome;
+    content: "\f0e0";
+    margin-right:5px;
+    color:#000;
+  }
+  .block-bean-contact {
+    float:right;
+  }
+  background-color:#eaeaea;
+}
+
+.zone-user-wrapper .block-bean-contact {
+  float: right;
+  margin-top: -17px;
+}
 
 
