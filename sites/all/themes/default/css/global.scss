@@ -200,12 +200,13 @@ ul#superfish-1 {
     a {
       margin: 38px 15px 19px 15px;
       padding: 10px 0px;
-      color: #000000;
+      color: #000;
       font-weight: 600;
       text-transform: uppercase;
     }
     a:hover {
       text-decoration:none;
+      //TODO variable
       border-bottom: 3px solid #8e0018;
       text-transform: uppercase;
     }
@@ -216,13 +217,14 @@ ul#superfish-1 {
 .zone-branding-wrapper {
   background-color:#ffffff;
 }
-
+//TODO ?
 .zone-header-wrapper {
 
 }
 
 
 a.readmore {
+  //TODO variable
   background-color:#8e0018;
   padding: 12px 23px;
   font-size:1.125em;
@@ -231,6 +233,7 @@ a.readmore {
   margin-top:30px;
 }
 
+//TODO #block-views-diensten-block .view-row heeft het zelfde effect zonder extra code
 .dienst {
   width: 100%;
   float: left;
@@ -242,6 +245,7 @@ a.readmore {
   }
   a:hover {
     text-decoration:none;
+    //TODO variable
     border-bottom: 3px solid #8e0018;
 
   }
@@ -255,23 +259,29 @@ a.readmore {
   background-color:#eaeaea;
   padding:50px 0 45px 0;
   a.readmore {
+    //TODO variable
     background-color:#8e0018;
     padding:23px;
     font-size:0.750em;
     font-weight:600;
     color:#ffffff;
   }
+
+  //TODO ?
   .readmore {
     width: 51%;
     margin: 0 auto;
     padding-bottom:40px;
   }
+
+  //TODO margin-top veranderen naar h2.block-title margin-bottom
   .view-id-diensten {
     margin-top:50px;
   }
 }
 
 .zone-footer-wrapper {
+  //TODO variable
   background-color:#8e0018;
   color:#ffffff;
   font-size:0.938em;
@@ -295,6 +305,7 @@ a.readmore {
     float:left;
   }
   ul.menu li {
+    //TODO margin: 0;
     margin: 0 0 0 0;
   }
   li a.active {
@@ -318,6 +329,7 @@ a.readmore {
 }
 
 .zone-preface-wrapper {
+  //TODO variable
   background-color:#eaeaea;
   margin-bottom:40px;
 }
@@ -327,12 +339,15 @@ a.readmore {
     margin-bottom:0px;
   }
   li {
+    //TODO variable
     background-color:#eaeaea;
     float:left;
     list-style:none;
     padding-right:11%;
     font-size: 0.813em;
+    //TODO variable
     color:#8e0018;
+    //TODO variable + Dubbel
     background-color: #eaeaea;
     font-weight: 600;
   }
@@ -345,6 +360,7 @@ a.readmore {
 }
 
 input[type="submit"] {
+  //TODO variable
   background-color: #8e0018;
   padding: 15px;
   font-size: 12px;
@@ -355,6 +371,8 @@ input[type="submit"] {
   border: 2px solid #ffffff;
 }
 
+
+//TODO ?
 .zone-footer-wrapper {
 
 }
@@ -392,6 +410,7 @@ input[type="text"] {
 
 .view-projecten {
   img {
+    //TODO ?
     float: center;
     padding: 25px 0px;
     width: 80%;
@@ -413,6 +432,8 @@ input[type="text"] {
 .logo-img {
   img {
     width: 50%;
+
+    //TODO Margin bottom voor margin: 0 auto werkt niet;
     margin-bottom: 10px;
     margin:0 auto;
   }
