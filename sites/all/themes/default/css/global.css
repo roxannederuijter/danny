@@ -301,15 +301,15 @@ a.readmore {
   background-color: #eaeaea;
   float: left;
   list-style: none;
-  padding-right: 11%;
   font-size: 0.813em;
   color: #8e0018;
   background-color: #eaeaea;
-  font-weight: 600; }
+  font-weight: 600;
+  width: 100%; }
 #block-block-2 li:before {
   font-family: FontAwesome;
-  content: "\f0a3";
-  margin-right: 5px;
+  content: "\f058";
+  margin-right: 10px;
   color: #8e0018; }
 
 input[type="submit"] {
