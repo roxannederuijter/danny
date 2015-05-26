@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the bean_contact feature.
+ */
+
+include_once 'bean_contact.features.inc';
