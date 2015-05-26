@@ -206,7 +206,8 @@ ul#superfish-1 {
       padding: 10px 0px;
       color: #000;
       font-weight: 600;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent; }
     ul#superfish-1 li a:hover {
       text-decoration: none;
       border-bottom: 3px solid #8e0018;
@@ -291,7 +292,8 @@ a.readmore {
 
 .zone-preface-wrapper {
   background-color: #eaeaea;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  padding: 10px 0; }
 
 #block-block-2 ul {
   margin-bottom: 0px; }

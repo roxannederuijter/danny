@@ -203,6 +203,7 @@ ul#superfish-1 {
       color: #000;
       font-weight: 600;
       text-transform: uppercase;
+      border-bottom: 3px solid transparent;
     }
     a:hover {
       text-decoration:none;
@@ -332,6 +333,7 @@ a.readmore {
   //TODO variable
   background-color:#eaeaea;
   margin-bottom:40px;
+  padding:10px 0;
 }
 
 #block-block-2{
