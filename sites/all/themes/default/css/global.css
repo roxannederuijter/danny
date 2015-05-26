@@ -373,7 +373,7 @@ input[type="text"] {
   border-bottom: 1px solid #eaeaea; }
 
 .admin-menu #section-header {
-  margin-top: 112px; }
+  /*margin-top:112px;*/ }
 .admin-menu #zone-branding-wrapper {
   top: 29px; }
 
