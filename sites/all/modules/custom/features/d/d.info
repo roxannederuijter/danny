@@ -17,6 +17,7 @@ dependencies[] = imagestyle_lightbox
 dependencies[] = jquery_update
 dependencies[] = lightbox2
 dependencies[] = strongarm
+dependencies[] = uh_jquery_menu
 dependencies[] = view_projecten
 features[ctools][] = strongarm:strongarm:1
 features[fe_block_boxes][] = contact
