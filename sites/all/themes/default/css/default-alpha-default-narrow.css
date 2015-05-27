@@ -166,4 +166,14 @@ input[type="text"] {
 .block-superfish {
   float: right; }
 
+#superfish-1-select {
+  width: 100%;
+  border-radius: 0;
+  padding-left: 40px;
+  background: #fff url("../css/img/hamburger-menu-icon.png") no-repeat 10px center;
+  border: #ccc;
+  background-size: 20px;
+  color: #000;
+  margin-top: 37px; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
