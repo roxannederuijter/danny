@@ -4,6 +4,7 @@ package = Default settings
 dependencies[] = admin_menu
 dependencies[] = adminimal_admin_menu
 dependencies[] = bean
+dependencies[] = colorbox
 dependencies[] = content_ds_settings
 dependencies[] = content_paragraph_bundels
 dependencies[] = content_type_basic_page

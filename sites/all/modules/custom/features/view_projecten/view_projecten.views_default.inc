@@ -40,10 +40,15 @@ function view_projecten_views_default_views() {
   $handler->display->display_options['fields']['field_image']['label'] = '';
   $handler->display->display_options['fields']['field_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_image']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_image']['type'] = 'lightbox2__lightbox__lightbox__original';
+  $handler->display->display_options['fields']['field_image']['type'] = 'colorbox';
   $handler->display->display_options['fields']['field_image']['settings'] = array(
-    'image_style' => '',
-    'image_link' => '',
+    'colorbox_node_style' => 'lightbox',
+    'colorbox_node_style_first' => 'lightbox',
+    'colorbox_image_style' => '',
+    'colorbox_gallery' => 'post',
+    'colorbox_gallery_custom' => '',
+    'colorbox_caption' => 'node_title',
+    'colorbox_caption_custom' => '',
   );
   /* Sort criterion: Inhoud: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';

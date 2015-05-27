@@ -18,9 +18,18 @@ function contenttype_projecten_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'lightbox2',
-        'settings' => array(),
-        'type' => 'lightbox2__lightbox__thumbnail__original',
+        'module' => 'colorbox',
+        'settings' => array(
+          'colorbox_caption' => 'title',
+          'colorbox_caption_custom' => '',
+          'colorbox_gallery' => 'post',
+          'colorbox_gallery_custom' => '',
+          'colorbox_image_style' => '',
+          'colorbox_multivalue_index' => NULL,
+          'colorbox_node_style' => 'thumbnail',
+          'colorbox_node_style_first' => 'thumbnail',
+        ),
+        'type' => 'colorbox',
         'weight' => 0,
       ),
       'teaser' => array(
