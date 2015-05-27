@@ -194,6 +194,11 @@ input[type="button"]:hover,
 ul#superfish-1 {
   padding: 0;
   margin: 0;
+  li.last {
+    a {
+      margin: 38px 0px 15px 15px;
+    }
+  }
   li {
     margin: 0;
     padding: 0;
@@ -441,7 +446,7 @@ input[type="text"] {
     padding: 5px 10px;
   }
   li.phone {
-    padding-right:5px;
+    padding-right:0px;
   }
   li.phone:before {
     font-family: FontAwesome;
