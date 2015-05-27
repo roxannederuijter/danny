@@ -21,7 +21,7 @@ function contenttype_diensten_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => 'dienst',
         ),
         'type' => 'image',
         'weight' => 1,
@@ -31,7 +31,7 @@ function contenttype_diensten_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => 'dienst',
         ),
         'type' => 'image',
         'weight' => 0,
