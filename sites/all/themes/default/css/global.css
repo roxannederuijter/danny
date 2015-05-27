@@ -412,4 +412,7 @@ input[type="text"] {
   width: 80%;
   margin: 0 auto; }
 
+.sticky-wrapper {
+  height: auto !important; }
+
 /*# sourceMappingURL=global.css.map */
