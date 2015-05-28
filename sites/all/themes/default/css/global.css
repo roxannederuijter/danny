@@ -388,15 +388,15 @@ input[type="text"] {
     float: left;
     list-style: none;
     padding: 5px 10px; }
-  .zone-user-wrapper li.phone {
+  .zone-user-wrapper .phone li.phone {
     padding-right: 0px; }
-  .zone-user-wrapper li.phone:before {
+  .zone-user-wrapper .phone li.phone:before {
     font-family: FontAwesome;
     content: "\f10b";
     margin-right: 5px; }
-  .zone-user-wrapper a {
+  .zone-user-wrapper .mail a {
     color: #000; }
-  .zone-user-wrapper a:before {
+  .zone-user-wrapper .mail a:before {
     font-family: FontAwesome;
     content: "\f0e0";
     margin-right: 5px;

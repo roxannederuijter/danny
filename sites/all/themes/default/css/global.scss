@@ -445,22 +445,26 @@ input[type="text"] {
     list-style: none;
     padding: 5px 10px;
   }
-  li.phone {
-    padding-right:0px;
+  .phone{
+    li.phone {
+      padding-right:0px;
+    }
+    li.phone:before {
+      font-family: FontAwesome;
+      content: "\f10b";
+      margin-right:5px;
+    }
   }
-  li.phone:before {
-    font-family: FontAwesome;
-    content: "\f10b";
-    margin-right:5px;
-  }
-  a {
-    color:#000;
-  }
-  a:before {
-    font-family: FontAwesome;
-    content: "\f0e0";
-    margin-right:5px;
-    color:#000;
+  .mail {
+    a {
+      color:#000;
+    }
+    a:before {
+      font-family: FontAwesome;
+      content: "\f0e0";
+      margin-right:5px;
+      color:#000;
+    }
   }
   .block-bean-contact {
     float:right;
