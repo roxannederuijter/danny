@@ -446,6 +446,7 @@ input[type="text"] {
     padding: 5px 10px;
   }
   .phone{
+    float:left;
     li.phone {
       padding-right:0px;
     }
@@ -456,6 +457,7 @@ input[type="text"] {
     }
   }
   .mail {
+    float:left;
     a {
       color:#000;
     }

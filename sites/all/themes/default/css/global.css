@@ -388,19 +388,23 @@ input[type="text"] {
     float: left;
     list-style: none;
     padding: 5px 10px; }
-  .zone-user-wrapper .phone li.phone {
-    padding-right: 0px; }
-  .zone-user-wrapper .phone li.phone:before {
-    font-family: FontAwesome;
-    content: "\f10b";
-    margin-right: 5px; }
-  .zone-user-wrapper .mail a {
-    color: #000; }
-  .zone-user-wrapper .mail a:before {
-    font-family: FontAwesome;
-    content: "\f0e0";
-    margin-right: 5px;
-    color: #000; }
+  .zone-user-wrapper .phone {
+    float: left; }
+    .zone-user-wrapper .phone li.phone {
+      padding-right: 0px; }
+    .zone-user-wrapper .phone li.phone:before {
+      font-family: FontAwesome;
+      content: "\f10b";
+      margin-right: 5px; }
+  .zone-user-wrapper .mail {
+    float: left; }
+    .zone-user-wrapper .mail a {
+      color: #000; }
+    .zone-user-wrapper .mail a:before {
+      font-family: FontAwesome;
+      content: "\f0e0";
+      margin-right: 5px;
+      color: #000; }
   .zone-user-wrapper .block-bean-contact {
     float: right; }
 
