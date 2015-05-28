@@ -396,6 +396,8 @@ input[type="text"] {
       font-family: FontAwesome;
       content: "\f10b";
       margin-right: 5px; }
+    .zone-user-wrapper .phone a {
+      color: #000; }
   .zone-user-wrapper .mail {
     float: left; }
     .zone-user-wrapper .mail a {
