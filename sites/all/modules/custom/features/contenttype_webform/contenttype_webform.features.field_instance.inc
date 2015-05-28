@@ -22,7 +22,7 @@ function contenttype_webform_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 0,
+        'weight' => 1,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -48,7 +48,7 @@ function contenttype_webform_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 42,
+      'weight' => 4,
     ),
   );
 
