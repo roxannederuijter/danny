@@ -18,22 +18,34 @@ function contenttype_diensten_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'image',
+        'module' => 'colorbox',
         'settings' => array(
-          'image_link' => '',
-          'image_style' => 'dienst',
+          'colorbox_caption' => 'auto',
+          'colorbox_caption_custom' => '',
+          'colorbox_gallery' => 'post',
+          'colorbox_gallery_custom' => '',
+          'colorbox_image_style' => '',
+          'colorbox_multivalue_index' => NULL,
+          'colorbox_node_style' => 'dienst',
+          'colorbox_node_style_first' => 'dienst',
         ),
-        'type' => 'image',
+        'type' => 'colorbox',
         'weight' => 1,
       ),
       'teaser' => array(
         'label' => 'hidden',
-        'module' => 'image',
+        'module' => 'colorbox',
         'settings' => array(
-          'image_link' => '',
-          'image_style' => 'dienst',
+          'colorbox_caption' => 'auto',
+          'colorbox_caption_custom' => '',
+          'colorbox_gallery' => 'post',
+          'colorbox_gallery_custom' => '',
+          'colorbox_image_style' => '',
+          'colorbox_multivalue_index' => NULL,
+          'colorbox_node_style' => 'dienst',
+          'colorbox_node_style_first' => 'dienst',
         ),
-        'type' => 'image',
+        'type' => 'colorbox',
         'weight' => 0,
       ),
     ),
@@ -76,8 +88,68 @@ function contenttype_diensten_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-diensten-field_paragraph'
+  $field_instances['node-diensten-field_paragraph'] = array(
+    'bundle' => 'diensten',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'paragraphs',
+        'settings' => array(
+          'view_mode' => 'full',
+        ),
+        'type' => 'paragraphs_view',
+        'weight' => 2,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_paragraph',
+    'label' => 'Paragraph',
+    'required' => 0,
+    'settings' => array(
+      'add_mode' => 'select',
+      'allowed_bundles' => array(
+        '1_kolom_afbeelding' => -1,
+        '1_kolom_tekst' => -1,
+        '2_kolommen_afbeeldingen' => -1,
+        '2_kolommen_tekst' => -1,
+        '2_kolommen_tekst_afbeelding_link' => -1,
+        '2_kolommen_tekst_afbeelding_rech' => -1,
+      ),
+      'bundle_weights' => array(
+        '1_kolom_afbeelding' => 2,
+        '1_kolom_tekst' => 3,
+        '2_kolommen_afbeeldingen' => 4,
+        '2_kolommen_tekst' => 5,
+        '2_kolommen_tekst_afbeelding_link' => 6,
+        '2_kolommen_tekst_afbeelding_rech' => 7,
+      ),
+      'default_edit_mode' => 'open',
+      'title' => 'Paragraph',
+      'title_multiple' => 'Paragraphs',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'paragraphs',
+      'settings' => array(),
+      'type' => 'paragraphs_embed',
+      'weight' => 43,
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
+  t('Paragraph');
   t('image');
 
   return $field_instances;
