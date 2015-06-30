@@ -252,6 +252,26 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['site_map-syndicate'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'syndicate',
+    'module' => 'site_map',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['superfish-1'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -592,10 +612,10 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['webform-client-block-7'] = array(
+  $export['webform-client-block-6'] = array(
     'cache' => -1,
     'custom' => 0,
-    'delta' => 'client-block-7',
+    'delta' => 'client-block-6',
     'module' => 'webform',
     'node_types' => array(),
     'pages' => '',

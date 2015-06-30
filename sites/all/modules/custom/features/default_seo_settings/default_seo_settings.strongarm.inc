@@ -13,6 +13,146 @@ function default_seo_settings_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'checklistapi_checklist_seo_checklist';
+  $strongarm->value = array(
+    '#changed' => 1435664302,
+    '#changed_by' => '1',
+    '#completed_items' => 27,
+    'add_to_google_places' => array(
+      '#completed' => 1435664302,
+      '#uid' => '1',
+    ),
+    'add_verifications' => array(
+      '#completed' => 1435664168,
+      '#uid' => '1',
+    ),
+    'authenticate_with_bing' => array(
+      '#completed' => 1435664302,
+      '#uid' => '1',
+    ),
+    'authenticate_with_google' => array(
+      '#completed' => 1435664168,
+      '#uid' => '1',
+    ),
+    'authenticate_with_google_analytics' => array(
+      '#completed' => 1435664016,
+      '#uid' => '1',
+    ),
+    'check_links' => array(
+      '#completed' => 1435664027,
+      '#uid' => '1',
+    ),
+    'configure_contact_google_analytics' => 0,
+    'configure_metatag' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'configure_metatags_quick' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'configure_microdata' => 0,
+    'configure_pathauto' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'create_google_analytics_analytics' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'download_internet_marketing_whitepapers' => 0,
+    'enable_clean_urls' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'get_google_account' => 0,
+    'get_windows_live_id' => 0,
+    'input_google_analytics_code' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'install_admin_menu' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'install_contact_google_analytics' => 0,
+    'install_context_keywords' => 0,
+    'install_drush' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'install_ga_tokenizer' => 0,
+    'install_globalredirect' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'install_google_analytics' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'install_htmlpurifier' => 0,
+    'install_metatag' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'install_metatags_quick' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'install_microdata' => 0,
+    'install_module_filter' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'install_pathauto' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'install_read_more' => 0,
+    'install_redirect' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'install_scheduler' => 0,
+    'install_search404' => array(
+      '#completed' => 1435664302,
+      '#uid' => '1',
+    ),
+    'install_security_review' => 0,
+    'install_seo_checker' => 0,
+    'install_site_map' => array(
+      '#completed' => 1435664168,
+      '#uid' => '1',
+    ),
+    'install_site_verify' => array(
+      '#completed' => 1435664168,
+      '#uid' => '1',
+    ),
+    'install_xmlsitemap' => array(
+      '#completed' => 1435663845,
+      '#uid' => '1',
+    ),
+    'link_to_volacci' => 0,
+    'mollom_spam_prevention' => 0,
+    'read_drupal_6_seo_book' => 0,
+    'send_feedback' => 0,
+    'submit_xml_sitemap_to_bing' => array(
+      '#completed' => 1435664302,
+      '#uid' => '1',
+    ),
+    'submit_xml_sitemap_to_google' => 0,
+    'validate_html' => array(
+      '#completed' => 1435664027,
+      '#uid' => '1',
+    ),
+    'volacci_automatr' => 0,
+    'watch_drupalize_me_video' => 0,
+  );
+  $export['checklistapi_checklist_seo_checklist'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'custom_breadcrumbs_append_bid_class';
   $strongarm->value = 0;
   $export['custom_breadcrumbs_append_bid_class'] = $strongarm;
@@ -123,6 +263,13 @@ function default_seo_settings_strongarm() {
   $strongarm->name = 'custom_breadcrumb_home';
   $strongarm->value = 'Home';
   $export['custom_breadcrumb_home'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'googleanalytics_account';
+  $strongarm->value = 'UA-63461536-1';
+  $export['googleanalytics_account'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -649,8 +796,50 @@ function default_seo_settings_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'site_403';
+  $strongarm->value = '';
+  $export['site_403'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'site_404';
+  $strongarm->value = 'search404';
+  $export['site_404'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'site_frontpage';
+  $strongarm->value = 'node/1';
+  $export['site_frontpage'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'site_mail';
+  $strongarm->value = 'roxanne@urban-heroes.nl';
+  $export['site_mail'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'site_name';
+  $strongarm->value = 'Lissenburg Daktechniek';
+  $export['site_name'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'site_slogan';
+  $strongarm->value = '';
+  $export['site_slogan'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'xmlsitemap_generated_last';
-  $strongarm->value = 1428483855;
+  $strongarm->value = 1435664337;
   $export['xmlsitemap_generated_last'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -673,12 +862,32 @@ function default_seo_settings_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'xmlsitemap_settings_node_diensten';
+  $strongarm->value = array(
+    'status' => '1',
+    'priority' => '0.5',
+  );
+  $export['xmlsitemap_settings_node_diensten'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'xmlsitemap_settings_node_page';
   $strongarm->value = array(
     'status' => '1',
     'priority' => '0.5',
   );
   $export['xmlsitemap_settings_node_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'xmlsitemap_settings_node_projecten';
+  $strongarm->value = array(
+    'status' => '1',
+    'priority' => '0.5',
+  );
+  $export['xmlsitemap_settings_node_projecten'] = $strongarm;
 
   return $export;
 }
