@@ -82,7 +82,7 @@ function view_projecten_views_default_views() {
   $handler->display->display_options['fields']['colorbox']['label'] = '';
   $handler->display->display_options['fields']['colorbox']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['colorbox']['trigger_field'] = 'field_image';
-  $handler->display->display_options['fields']['colorbox']['popup'] = '[field_image]';
+  $handler->display->display_options['fields']['colorbox']['popup'] = '[field_image_1]';
   $handler->display->display_options['fields']['colorbox']['gid'] = 1;
   /* Sort criterion: Inhoud: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
